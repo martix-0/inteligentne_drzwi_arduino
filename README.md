@@ -79,7 +79,7 @@ Jako że mamy wiele pinów do GND, warto połączyć je na płytce w jednym rzę
 
 Na servo można przykleić papierowe drzwi dla efektu.
 
-Kod znajduje się w pliku o nazwie main.cpp
+Kod znajduje się w pliku o nazwie main.ino
 
 **Uruchomienie**
 Wszystko gotowe? Podłącz Arduino i wgraj kod. Jeśli wszystko dobrze jest podłączone, na ekranie pojawi się napis "System gotowy" lub "Zbliż pestkę do czytnika", w zależności od tego, czy jakiś obiekt nie stoi bliżej niż 20cm od czytnika. Zbliż pestki/karty i zobacz, co się stanie!
