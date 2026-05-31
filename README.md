@@ -84,4 +84,5 @@ Kod znajduje się w pliku o nazwie main.ino
 **Uruchomienie**
 Wszystko gotowe? Podłącz Arduino i wgraj kod. Jeśli wszystko dobrze jest podłączone, na ekranie pojawi się napis "System gotowy" lub "Zbliż pestkę do czytnika", w zależności od tego, czy jakiś obiekt nie stoi bliżej niż 20cm od czytnika. Zbliż pestki/karty i zobacz, co się stanie!
 
- 
+ **Filmik**
+ https://youtu.be/3THzAoVMNSQ
