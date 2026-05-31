@@ -38,6 +38,7 @@ SCK -> PIN 13
 
 **WAŻNE: nie możesz używać innych pinów**
 Dlaczego? Arduino UNO w tych miejscach posiada sprzętowy kontroler SPI, dzięki czemu możemy otrzymać prawidłowe dane z pestek/kart.
+Zdjęcie poglądowe nr 20260531_102448
 
 Aby zeskanować pestki/karty, można użyć biblioteki MFRC522-spi-i2c-uart-async i wybrać rfid_default_keys.
 
@@ -64,6 +65,8 @@ Czerwony LED:
 Anoda (dłuższa nóżka +) -> PIN 4
 Katoda (krótsza nóżka -) -> rezystor -> PIN GND
 
+Pomoc na zdjęciach 20260531_102318 i 20260531_102337.
+
 **LCD**
 GND -> PIN GND
 VCC  -> PIN 5V
@@ -75,14 +78,14 @@ orange/yellow -> PIN 3
 red -> 5V/VIN
 brown -> GND
 
-Jako że mamy wiele pinów do GND, warto połączyć je na płytce w jednym rzędzie i jeden kabel zaprowadzić do GND. 
+Jako że mamy wiele pinów do GND, warto połączyć je na płytce w jednym rzędzie i jeden kabel zaprowadzić do GND. (zdjęcie 20260531_102337)
 
 Na servo można przykleić papierowe drzwi dla efektu.
 
 Kod znajduje się w pliku o nazwie main.ino
 
 **Uruchomienie**
-Wszystko gotowe? Podłącz Arduino i wgraj kod. Jeśli wszystko dobrze jest podłączone, na ekranie pojawi się napis "System gotowy" lub "Zbliż pestkę do czytnika", w zależności od tego, czy jakiś obiekt nie stoi bliżej niż 20cm od czytnika. Zbliż pestki/karty i zobacz, co się stanie!
+Wszystko gotowe? Podłącz Arduino i wgraj kod. Jeśli wszystko dobrze jest podłączone, na ekranie pojawi się napis "System gotowy" (zdjęcie 20260531_102448) lub "Zbliż pestkę do czytnika" (zdjęcie 20260531_102405), w zależności od tego, czy jakiś obiekt nie stoi bliżej niż 20cm od czytnika. Zbliż pestki/karty i zobacz, co się stanie! Odpowiedzi znajdziesz na zdjęciach 20260531_102412 oraz 20260531_102430. 
 
  **Filmik**
  https://youtu.be/3THzAoVMNSQ
